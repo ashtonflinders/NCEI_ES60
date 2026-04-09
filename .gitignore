@@ -1,0 +1,3 @@
+# Ignore everything in local_data except .gitkeep
+CRUISES/*
+!CRUISES/.gitkeep

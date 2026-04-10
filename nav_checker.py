@@ -3,8 +3,7 @@ nav_checker.py
 
 Author:
     Ashton Flinders
-    U.S. Geological Survey (USGS)
-    Email: aflinders@usgs.gov
+    andrealphus@gmail.com
 
 Date Created:
     2026-04-09

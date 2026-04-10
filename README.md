@@ -118,8 +118,7 @@ Planned enhancements to this repository include:
 
 ## Author
 **Ashton Flinders**  
-U.S. Geological Survey (USGS)  
-Email: aflinders@usgs.gov  
+Email: andrealphus@gmail.com
 
 ---
 

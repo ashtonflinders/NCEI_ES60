@@ -80,6 +80,8 @@ import nav_checker as nc
 
 # Run in read-only mode (no file movement)
 nc.READ_ONLY_MODE = True
+nc.MOVE_FILES = False # Not used if in Read-only mode
+nc.USE_SENTENCE_FOR_NAV = True # Additional check for NMEA string
 summary_df = nc.main("/path/to/source_directory")
 print(summary_df.head())
 ```
@@ -103,13 +105,16 @@ NCEI_ES60/
 ├── nav_checker.py
 ├── README.md
 ├── .gitignore
-└── local_data/        # Local-only data (not synced to GitHub)
+├── CRUISES/        # Cruise data (local only, not synced to GitHub)
+├── cruise_nav_summaries/ 
+├── notes/
 ```
 
 ---
 
 ## Future Development
 Planned enhancements to this repository include:
+- Correct for possible embedded triangular wave error (see `notes` folder)
 - Extraction of **bottom depths** from ES60 `.raw` files using `echopype`.
 - Additional quality control and visualization tools.
 - Support for automated processing workflows.

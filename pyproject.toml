@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ncei_es60"
+version = "0.1.0"
+description = "ES60 processing tools"
+authors = [
+    {name = "Ashton Flinders"}
+]
+
+[tool.setuptools.packages.find]
+where = ["."]

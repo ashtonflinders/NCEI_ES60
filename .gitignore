@@ -1,5 +1,26 @@
 # Ignore everything in local_data except .gitkeep
+# ------------------------------------------------------------------
+# Raw cruises
+# ------------------------------------------------------------------
+
 CRUISES_raw/*
-!CRUISES_raw//.gitkeep
+
+# Keep placeholder
+!CRUISES_raw/.gitkeep
+
+# Keep example cruise
+!CRUISES_raw/EBS17VA_example/
+!CRUISES_raw/EBS17VA_example/**
+
+# ------------------------------------------------------------------
+# Processed cruises
+# ------------------------------------------------------------------
+
 CRUISES_processed/*
+
+# Keep placeholder
 !CRUISES_processed/.gitkeep
+
+# Keep example cruise
+!CRUISES_processed/EBS17VA_example/
+!CRUISES_processed/EBS17VA_example/**

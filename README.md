@@ -420,14 +420,18 @@ summary_df = process_cruise(config)
 
 ## Future Development
 
-Planned enhancements include:
+### Near-Term Priorities
 
-- ES60 calibration extraction and management tools.
+- Application of vessel draft and transducer offsets.
 - Triangular waveform artifact identification and removal.
-- Multi-frequency and single-frequency bottom-detection post-processing to improve seafloor pick consistency and robustness.
-- Bottom-detection uncertainty estimation and quality metrics for bathymetric applications.
-- Automated cruise-level processing workflows.
-- Multi-cruise batch processing support.
+- Improved bottom-detection robustness through multi-frequency and single-frequency post-processing methods.
+- Bottom-detection uncertainty estimation and quality metrics for derived depths.
+- Automated cruise-level and multi-cruise processing workflows.
+
+### Long-Term Priorities
+
+- Post-processing application of representative sound velocity profiles (SVPs).
+- Development of methodologies for network adjustment and reconciliation of the processed ES60 depth dataset.
 
 ---
 
